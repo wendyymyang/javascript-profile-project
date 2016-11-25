@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="wrapper">
+  <h1>Manage Your Profile</h1>
+  
+    <div class="profile-main-container">
+     
+      <div class="prof-container email">  
+        <h3>Email</h3>
+        
+        <div class="change-container">
+          <p>first.last@email.com</p>
+          
+          <form class="change-form">
+            <fieldset>
+              <label for="new-email">New Email</label>
+              <input type="email" id="new-email" placeholder="New Email"/> 
+            </fieldset>
+
+            <fieldset>
+              <label for="confirm-email">Confirm Email</label>
+              <input type="email" id="confirm-email" placeholder="Confirm Email"/>
+            </fieldset> 
+
+            <fieldset>
+              <button class="cancel">Cancel</button>
+              <button><input type="submit" value="Submit" /></button>
+            </fieldset>
+          </form> <!-- End change-form -->
+        </div>
+        
+        <button class="change-item">Change Email</button>
+        
+      </div> <!-- End prof-container email-->
+
+      <div class="prof-container name">  
+        <h3>Name</h3>
+        
+        <div class="change-container">
+          <p>Wendy Yang</p>
+          
+          <form class="change-form">
+            <fieldset>
+              <label for="new-first">First Name</label>
+              <input type="text" id="new-first" placeholder="First Name"/> 
+            </fieldset>
+
+            <fieldset>
+              <label for="new-last">Last Name</label>
+              <input type="text" id="new-last" placeholder="Last Name"/>
+            </fieldset> 
+
+            <fieldset>
+              <button class="cancel">Cancel</button>
+              <button><input type="submit" value="Submit" /></button>
+            </fieldset>
+          </form> <!-- End change-form -->
+        </div>
+        
+        <button class="change-item">Change Name</button>
+        
+      </div> <!-- End prof-container name-->
+
+      <div class="prof-container password">  
+        <h3>Password</h3>
+        
+        <div class="change-container">
+          <p>********</p>
+          
+          <form class="change-form cf-password">
+            <fieldset>
+              <label for="new-password">New Password</label>
+              <input type="password" id="new-password" placeholder="New Password"/> 
+            </fieldset>
+
+            <fieldset>
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" placeholder="Confirm Password"/>
+            </fieldset> 
+
+            <fieldset>
+              <button class="cancel">Cancel</button>
+              <button><input type="submit" value="Submit" /></button>
+            </fieldset>
+          </form> <!-- End change-form -->
+        </div>
+        
+        <button class="change-item">Change Password</button>
+        
+      </div> <!-- End prof-container password-->
+      
+      <div class="prof-container account-type">  
+        <h3>Account Type</h3>
+        
+        <div class="change-container">
+          <button class="free">Free</button>
+          <button class="premium">Premium</button>
+        </div>
+      </div> <!-- End prof-container account-type -->
+
+      <button class="change-item delete">Delete Account</button>
+    
+    </div> <!-- End profile-main-container --> 
+  </div> <!-- End wrapper -->
+
+  <script src="main.js"></script>
+</body>
+</html>
+
