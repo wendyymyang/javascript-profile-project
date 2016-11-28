@@ -61,9 +61,16 @@ h1 {
 .change-form {
   top: 0;
   width: 100%;
-  transition: all 0.5s linear;
   height: 0;
   overflow: hidden;
+  transition-property: height;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.open {
+  height: 167px;
+  transition: height 0.5s cubic-bezier(0, 1, 0.5, 1);
 }
 
 .change-form fieldset:first-of-type,
